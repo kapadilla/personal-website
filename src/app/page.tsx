@@ -57,13 +57,13 @@ export default function Portfolio() {
               </Button>
             </div>
             <div className="flex items-center gap-4 justify-center md:justify-start pt-4">
-              <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <Link href="https://www.github.com/kapadilla" target="_blank" rel="noopener noreferrer">
                 <Github className="h-6 w-6 text-muted-foreground hover:text-foreground transition-colors" />
               </Link>
-              <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <Link href="https://www.linkedin.com/in/kapadilla28/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="h-6 w-6 text-muted-foreground hover:text-foreground transition-colors" />
               </Link>
-              <Link href="mailto:contact@example.com">
+              <Link href="mailto:kimberlypadilla928@gmail.com">
                 <Mail className="h-6 w-6 text-muted-foreground hover:text-foreground transition-colors" />
               </Link>
             </div>
@@ -222,13 +222,13 @@ export default function Portfolio() {
               />
               <OtherProjectCard
                 title="Portfolio Website"
-                description="This portfolio website built with Next.js and Tailwind CSS."
+                description="This portfolio website built with Next.js and Tailwind CSS"
                 tags={["Next.js", "Tailwind CSS", "Responsive Design"]}
                 link="#"
               />
               <OtherProjectCard
                 title="login-register"
-                description="Implementing login and register using various programming languages"
+                description="Implemented login and register using various programming languages"
                 tags={["PHP", "MySQL", "Python", "Jinja", "Flask"]}
                 link="https://github.com/kapadilla/login-register"
               />
@@ -345,11 +345,11 @@ export default function Portfolio() {
             <p className="text-muted-foreground">© {new Date().getFullYear()} Kimberly Padilla. All rights reserved.</p>
           </div>
           <div className="flex gap-4">
-            <Link href="github.com/kapadilla" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.github.com/kapadilla" target="_blank" rel="noopener noreferrer">
               <Github className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
               <span className="sr-only">GitHub</span>
             </Link>
-            <Link href="linkedin.com/in/kapadilla28" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.linkedin.com/in/kapadilla28/" target="_blank" rel="noopener noreferrer">
               <Linkedin className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
               <span className="sr-only">LinkedIn</span>
             </Link>
