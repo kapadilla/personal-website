@@ -221,10 +221,10 @@ export default function Portfolio() {
                 link="https://github.com/kapadilla/Freshie-Birdie"
               />
               <OtherProjectCard
-                title="Portfolio Website"
-                description="This portfolio website built with Next.js and Tailwind CSS"
+                title="Personal Website"
+                description="This Personal website"
                 tags={["Next.js", "Tailwind CSS", "Responsive Design"]}
-                link="#"
+                link="https://github.com/kapadilla/personal-website"
               />
               <OtherProjectCard
                 title="login-register"
