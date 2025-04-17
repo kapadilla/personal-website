@@ -199,7 +199,7 @@ export default function Portfolio() {
                 <OtherProjectCard
                   title="Personal Website"
                   description="This Personal website"
-                  tags={["Next.js", "Tailwind CSS", "Responsive Design"]}
+                  tags={["Next.js", "Tailwind CSS", "Responsive Design", "REST API"]}
                   link="https://github.com/kapadilla/personal-website"
                 />
                 <OtherProjectCard
